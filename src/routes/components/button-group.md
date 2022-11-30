@@ -51,7 +51,7 @@ Use the following code to stack together buttons into a single group.
   import { ButtonGroup, Button } from 'flowbite-svelte';
 </script>
 <ButtonGroup>
-  <Button>Proflie</Button>
+  <Button>Profile</Button>
   <Button>Settings</Button>
   <Button>Messages</Button>
 </ButtonGroup>
@@ -66,25 +66,25 @@ Use the following code to stack together buttons into a single group.
 <div class="grid grid-cols-2 gap-4 w-fit text-gray-900 dark:text-gray-100">
   <div>Pills</div>
   <ButtonGroup class="space-x-px">
-    <Button pill color="purple">Proflie</Button>
+    <Button pill color="purple">Profile</Button>
     <Button pill color="purple">Settings</Button>
     <Button pill color="purple">Messages</Button>
   </ButtonGroup>
   <div>Standard buttons</div>
   <ButtonGroup>
-    <Button color="red">Proflie</Button>
+    <Button color="red">Profile</Button>
     <Button color="green">Settings</Button>
     <Button color="yellow">Messages</Button>
   </ButtonGroup>
   <div>Outline</div>
   <ButtonGroup>
-    <Button outline color="red">Proflie</Button>
+    <Button outline color="red">Profile</Button>
     <Button outline color="green">Settings</Button>
     <Button outline color="yellow">Messages</Button>
   </ButtonGroup>
   <div>Gradient with shadows</div>
   <ButtonGroup>
-    <Button gradient shadow="green" color="green">Proflie</Button>
+    <Button gradient shadow="green" color="green">Profile</Button>
     <Button gradient shadow="pink" color="pink">Settings</Button>
     <Button gradient shadow="teal" color="teal">Messages</Button>
   </ButtonGroup>
@@ -106,7 +106,7 @@ You can also use the button group component as links.
   import { ButtonGroup, Button } from 'flowbite-svelte';
 </script>
 <ButtonGroup>
-  <Button href="/">Proflie</Button>
+  <Button href="/">Profile</Button>
   <Button href="/">Settings</Button>
   <Button href="/">Messages</Button>
 </ButtonGroup>
@@ -123,7 +123,7 @@ You can also use SVG icons inside the grouped buttons.
 <ButtonGroup>
   <Button>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-2 text-purple-500 dark:text-green-500"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" /></svg>
-    Proflie
+    Profile
   </Button>
   <Button>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-2 text-purple-500 dark:text-green-500"><path stroke-linecap="round" stroke-linejoin="round" d="M6 13.5V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 9.75V10.5" /></svg>
@@ -145,7 +145,7 @@ Group a series of buttons together on a single line or stack them in a vertical 
   import { ButtonGroup, Button } from 'flowbite-svelte';
 </script>
 <ButtonGroup>
-  <Button outline color="dark">Proflie</Button>
+  <Button outline color="dark">Profile</Button>
   <Button outline color="dark">Settings</Button>
   <Button outline color="dark">Messages</Button>
 </ButtonGroup>
@@ -162,7 +162,7 @@ Group a series of buttons together on a single line or stack them in a vertical 
 <ButtonGroup>
   <Button outline color="dark">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-2 text-blue-500 dark:text-red-500"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" /></svg>
-    Proflie
+    Profile
   </Button>
   <Button outline color="dark">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-2 text-blue-500 dark:text-red-500"><path stroke-linecap="round" stroke-linejoin="round" d="M6 13.5V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 9.75V10.5" /></svg>
